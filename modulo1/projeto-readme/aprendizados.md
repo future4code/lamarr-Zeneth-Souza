@@ -1,0 +1,2 @@
+# Aprendizados da Semana
+Nessa primeira semana do meu retorno na **Labenu**, eu relembrei bastante coisa que me tirou o sono ano passado, aos poucos estou pegando o jeito e espero melhorar mais e me aperfeiçoar mais.
