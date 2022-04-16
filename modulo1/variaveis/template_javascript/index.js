@@ -36,11 +36,30 @@ console.log("Olá" , nome , "você tem" , idade , "anos")*/
 
 /*Resposta exercicio 2
 
-const */
+const pergunta1 = "Você está usando azul hoje?"
+const pergunta2 = "Você gosta de pitaya?"
+const pergunta3 = "Você fala inglês?"
 
+const resposta1 = prompt(pergunta1)
+const resposta2 = prompt(pergunta2)
+const resposta3 = prompt(pergunta3)
 
+console.log(pergunta1, "-", resposta1)
+console.log(pergunta2, "-", resposta2)
+console.log(pergunta3, "-", resposta3)
 
+// Exercicio 3
 
+// let a = 10
+// let b = 25
+// let c;
+
+// c = a; // c = 10
+// a = b; // a = 25
+// b = c; // b = 10
+
+// cosole.log("a", a);
+// console.log("b", b);
 
 
 
