@@ -36,22 +36,21 @@ function imprimeIdade() {
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
+
   const IMC = peso/ (altura * altura)
   return IMC 
 }
 
-
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
 // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
+
  let nome = prompt("Qual seu nome")
  let idade = Number(prompt("Qual sua idade"))
  let email = prompt("Qual seu e-mail")
 
  console.log(`Meu nome é ${nome} , tenho ${idade} , e o meu e-mail é ${email}`)
 }
-
- 
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
