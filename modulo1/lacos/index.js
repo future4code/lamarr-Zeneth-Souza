@@ -6,7 +6,7 @@
 
 //1
 
-let animaisEstimacao = Number(prompt("Quantos bichinhos de estimação você tem?"))
+/*let animaisEstimacao = Number(prompt("Quantos bichinhos de estimação você tem?"))
 let arrayAnimais = []
 
    if (animaisEstimacao === 0) {
@@ -16,4 +16,4 @@ let arrayAnimais = []
       arrayAnimais.push(prompt(`Qual é o nome do pet ${i}?`))
    }
 }
-  console.log(arrayAnimais)
+  console.log(arrayAnimais)*/
