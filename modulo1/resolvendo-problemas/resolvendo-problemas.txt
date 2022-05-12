@@ -1,0 +1,5 @@
+Os 7 passos importantes para resolver os problemas são:
+Ler atentamento o que está pedindo, identificar as informações mais relevantes, verificar palavras chaves
+e com isso analisar que tipo de estrutura o nosso código vai ter.
+E após analisar essas informações, pensar nas entradas e saidas, as possiveis respostas do código, ter um esquema visual 
+ou com diagrama, criar um código básico e depois com todas as informações indexadas melhorar ele e deixar mais limpo.
