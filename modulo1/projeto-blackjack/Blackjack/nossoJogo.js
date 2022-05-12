@@ -13,10 +13,11 @@
     console.log( "Boas vindas ao jogo de blackjack!")
     
     if (confirm("Quer iniciar uma nova rodada?")) {
-      const arrayUsuario = []
-      const arrayComputador = []
       carta1 = comprarCarta()
       carta2 = comprarCarta()
+      carta3 = comprarCarta()
+      carta4 = comprarCarta()
+      
       arrayUsuario.push(comprarCarta(), comprarCarta())
       arrayComputador.push(comprarCarta(), comprarCarta())
       const maoUsuario = arrayUsuario.map((item, index, array) => {
