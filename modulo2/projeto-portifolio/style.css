@@ -59,7 +59,7 @@ nav ul li a{
 
 .active{
     font-weight: bold;
-    color: mediumblue;
+    color: #6d6d6d(2, 2, 206);
 }
 
 /* Estilo Textos*/
@@ -115,11 +115,6 @@ nav ul li a{
     color:darkgray
 }
 
-.btn2{
-    border:2px solid #0f0f0f;
-    color: darkgray
-}
-
 button:active{
     transform: scale(1.1);
 }
@@ -127,9 +122,46 @@ button:active{
 /* Estilo Imagem de Fundo do Banner*/
 
 .imgze{
-    height: 490px;
+    height: 200px;
     position: absolute;
     bottom:40px;
-    left: 67%;
+    left: 84%;
+    top: 14%;
     transform: translate(60%)  
+}
+
+.conteudo-sobre{
+    width: 80%;
+    height: 330px;
+    background-color:rgb(245, 242, 238);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px; rgba(0,0,0,0.2);
+    display: flex;
+    margin: 7p% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto-sobre{
+    width: 550px;
+}
+
+.conteudo-sobre p:nth-child{
+    color:darkslategrey;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+    
+}
+
+.texto-sobre button{
+    width: 120px;
+    height: 40px;
+    color: darkgray;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: #262525;
 }
