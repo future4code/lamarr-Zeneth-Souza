@@ -15,9 +15,16 @@ function Post(props){
   const [curtido, setCurtido] = useState(false)
   const [comentando, setComentando] = useState(false)
   const [numeroComentarios, setNumeroComentarios] = useState(0)
+  const [coment, setComent]=useState("")
 
   const onClickCurtida = () => {
+    setCurtido(!curtido)
     console.log('Curtiu!')
+    if (!curtido){
+      setnumeroCurtidas(numeroCurtidas+1)
+    }else{
+      setnumeroCurtidas(numeroCurtidas+1)
+    }
   }
   
   const onClickComentario = () => {
@@ -30,7 +37,15 @@ function Post(props){
   
   const aoEnviarComentario = () => {
     setComentando(false)
-    setNumeroComentarios(numeroComentarios + 1)
+    if (coment!==""){
+      setNumeroComentarios(numeroComentarios + 1)
+    }
+    setComent("")
+  }
+
+  const handleInputComent=(e)=>{
+    setComent(e.target.value)
+    console.log(coment);
   }
 
   let iconeCurtida
